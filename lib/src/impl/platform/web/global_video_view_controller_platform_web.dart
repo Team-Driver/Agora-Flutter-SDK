@@ -49,7 +49,6 @@ class GlobalVideoViewControllerWeb extends GlobalVideoViewControllerPlatfrom {
   GlobalVideoViewControllerWeb(
       IrisMethodChannel irisMethodChannel, RtcEngine rtcEngine)
       : super(irisMethodChannel, rtcEngine) {
-    // ignore: undefined_prefixed_name
     ui.platformViewRegistry.registerViewFactory(_platformRendererViewType,
         (int viewId) {
       final view = _View(viewId);
